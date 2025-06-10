@@ -3,4 +3,6 @@
 
 horario = int(input("Digite o horário atual (24h): "))
 if horario < 9 and > 21:
-    print("A plata")
+    print("A plataforma não pode ser executada agora.")
+else:
+    print("A plataforma será executada em alguns instantes.")
