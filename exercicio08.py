@@ -5,5 +5,9 @@
 # Acima de 150 km: R$ 25,00
 
 frete = int(input("Insira aqui a distância do frete: "))
-
- 
+if frete >= 50:
+    print("O valor do frete é de R$ 5,OO.")
+elif frete >51 <150:
+    print("O valor do frete é de R$ 15,00.")
+else:
+    print("O valor do frete é de R$ 25,00.")
