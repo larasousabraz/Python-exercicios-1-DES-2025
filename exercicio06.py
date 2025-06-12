@@ -2,7 +2,7 @@
 # O programa deve receber a hora atual (formato 24h) e informar se o acesso é permitido.
 
 horario = int(input("Digite o horário atual (24h): "))
-if horario < 9 and > 21:
+if horario < 9 > 21:
     print("A plataforma não pode ser executada agora.")
 else:
     print("A plataforma será executada em alguns instantes.")

@@ -4,4 +4,6 @@
 # De 51 a 150 km: R$ 15,00
 # Acima de 150 km: R$ 25,00
 
+frete = int(input("Insira aqui a distância do frete: "))
 
+ 
