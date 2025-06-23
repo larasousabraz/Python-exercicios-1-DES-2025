@@ -9,4 +9,4 @@ parcela = float(input("Digite o percentual que o financiamento ocupa no salário
 if  salario > 3000 or parcela < 35:
     print("Infelizmente, o financiamento não pode ser realizado.")
 else:
-    print("O financiamento pode ser realizado. ")
+    print("O financiamento pode ser realizado.")
