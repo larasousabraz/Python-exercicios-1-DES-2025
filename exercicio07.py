@@ -12,7 +12,7 @@ indice = meta1 + meta2 + meta3 / 3
 
 if indice >=7:
     print("Parabéns, você foi aprovado!")
-elif indice >=5  <7:
+elif indice >=5 <7:
     print("Você está em etapa de treinamento.")
 else:
     ("Ah não!  Parece que você não foi aprovado.")
